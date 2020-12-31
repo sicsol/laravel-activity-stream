@@ -1,11 +1,11 @@
-# Very short description of the package
+# Laravel Activity Stream
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sicsol/laravel-activity-stream.svg?style=flat-square)](https://packagist.org/packages/sicsol/laravel-activity-stream)
-[![Build Status](https://img.shields.io/travis/sicsol/laravel-activity-stream/master.svg?style=flat-square)](https://travis-ci.org/sicsol/laravel-activity-stream)
-[![Quality Score](https://img.shields.io/scrutinizer/g/sicsol/laravel-activity-stream.svg?style=flat-square)](https://scrutinizer-ci.com/g/sicsol/laravel-activity-stream)
+[![Build Status](https://img.shields.io/travis/sicsol/laravel-activity-stream/master.svg?style=flat-square)](https://travis-ci.com/sicsol/laravel-activity-stream)
+<!-- [![Quality Score](https://img.shields.io/scrutinizer/g/sicsol/laravel-activity-stream.svg?style=flat-square)](https://scrutinizer-ci.com/g/sicsol/laravel-activity-stream) -->
 [![Total Downloads](https://img.shields.io/packagist/dt/sicsol/laravel-activity-stream.svg?style=flat-square)](https://packagist.org/packages/sicsol/laravel-activity-stream)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Activity stream package for Laravel applications. Inspired by GetStream.io we support Flat Feeds, Timeline Feeds and Notification Feeds. This will also include the ability to follow Entities. Once an entity is followed or unfollowed activities will be added/removed from timelines.
 
 ## Installation
 
