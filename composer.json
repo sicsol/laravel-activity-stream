@@ -1,0 +1,54 @@
+{
+    "name": "sicsol/laravel-activity-stream",
+    "description": "Activity stream for Laravel applications",
+    "keywords": [
+        "sicsol",
+        "laravel-activity-stream"
+    ],
+    "homepage": "https://github.com/sicsol/laravel-activity-stream",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "David M",
+            "email": "sicsol@streetconcepts.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sicsol\\LaravelActivityStream\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sicsol\\LaravelActivityStream\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sicsol\\LaravelActivityStream\\LaravelActivityStreamServiceProvider"
+            ],
+            "aliases": {
+                "LaravelActivityStream": "Sicsol\\LaravelActivityStream\\LaravelActivityStreamFacade"
+            }
+        }
+    }
+}
