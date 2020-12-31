@@ -1,4 +1,4 @@
-# Laravel Activity Stream
+# ***WIP Laravel Activity Stream
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sicsol/laravel-activity-stream.svg?style=flat-square)](https://packagist.org/packages/sicsol/laravel-activity-stream)
 [![Build Status](https://img.shields.io/travis/sicsol/laravel-activity-stream/master.svg?style=flat-square)](https://travis-ci.com/sicsol/laravel-activity-stream)
